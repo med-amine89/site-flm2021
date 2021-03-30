@@ -121,7 +121,7 @@ h1, h2, h3, h4, h5, h6 {
 #topbar {
   background: #106eea;
   height: 40px;
-  font-size: 0.8rem;
+  font-size: 0.56rem;
   transition: all 0.5s;
   color: #fff;
   padding: 0;
@@ -174,7 +174,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 70px;
 }
 
-/* #header .logo {
+#header .logo {
   font-size: 30px;
   margin: 0;
   padding: 0;
@@ -182,7 +182,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   letter-spacing: 0.8px;
   font-family: "Poppins", sans-serif;
-} */
+}
 
 #header .logo a {
   color: #222222;
@@ -196,7 +196,8 @@ h1, h2, h3, h4, h5, h6 {
 
 #header .logo img {
   max-height: 87px;
-  margin-right: 500px;
+  position: relative;
+  padding-right: 150px;
 }
 
 .scrolled-offset {
